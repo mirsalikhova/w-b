@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 28px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex ul {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+
+li a {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600px;
+    font-size: 12px;
+}
+
+li a:hover {
+    color: rgba(245, 117, 32, 1);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.wrapper {
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-about {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-about h1 {
+    width: 679px;
+    font-weight: 700;
+    font-size: 96px;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 80px;
+    line-height: 118.08px;
+}
+
+.container-about p {
+    width: 645px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 28.8px;
+    margin-top: 48px;
+    margin-bottom: 40px;
+}
+
+.container-about button {
+    width: 180px;
+    border-radius: 10px;
+    background-color: rgba(245, 117, 32, 1);
+    color: #FFFF;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 16px 45px;
+    text-align: center;
+    margin-bottom: 236px;
+}
+
+
+
+.katalog {
+    background-color: grey;
+}
+
+.container-trasa {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-trasa h1 {
+    display: flex;
+    margin: 0 auto;
+    width: fit-content ;
+    margin-bottom: 170px;
+}
+
+.cards2 {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+
+.card-velo {
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    color: #FFFF;
+    margin-bottom: 120px;
+}
+
+.card-velo:hover {
+    background-color: rgba(245, 117, 32, 1);
+    color: black;
+}
+
+.card-velo img {
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+}
+
+.card-velo h6 {
+    font-weight: 800;
+    font-size: 16px;
+    padding: 24px;
+}
+
+.card-velo p {
+    width: 315px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 24px;
+}
+
+.container-call {
+    display: flex;
+    margin:0 auto;
+    background-color: rgba(245, 117, 32, 1);
+    justify-content: space-between;
+}
+
+.photo img {
+    width: 800px;
+    height: 600px;
+}
+
+.container-call h1 {
+    padding: 52px;
+    margin: 0 auto;
+    width: 620px;
+    font-weight: 800;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+input {
+    width: 302px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(179, 179, 179, 1);
+}
+
+#sms {
+    width: 638px;
+    height: 145px;
+}
+
+#submit {
+    width: 638px;
+}
+
+.container-map img {
+    width: 1520px;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    padding: 91px;
+    padding-bottom: 230PX;
+}
+
+.container-foot {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo-foot {
+    margin-right: 355px;
+}
+
+.container-foot ul  {
+    align-items: center;
+    margin: 0 auto;
+    gap: 32px;
+}
+
+.bold {
+    font-weight: 900;
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 10px;
+}
